@@ -16,6 +16,7 @@
 		6A75D0262C57DFA100951D86 /* tableViewAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A75D0252C57DFA100951D86 /* tableViewAnimationTests.swift */; };
 		6A75D0302C57DFA100951D86 /* tableViewAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A75D02F2C57DFA100951D86 /* tableViewAnimationUITests.swift */; };
 		6A75D0322C57DFA100951D86 /* tableViewAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A75D0312C57DFA100951D86 /* tableViewAnimationUITestsLaunchTests.swift */; };
+		6A75D0432C57E7A300951D86 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A75D0422C57E7A300951D86 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6A75D02B2C57DFA100951D86 /* tableViewAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A75D02F2C57DFA100951D86 /* tableViewAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewAnimationUITests.swift; sourceTree = "<group>"; };
 		6A75D0312C57DFA100951D86 /* tableViewAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6A75D0422C57E7A300951D86 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				6A75D00E2C57DFA000951D86 /* AppDelegate.swift */,
 				6A75D0102C57DFA000951D86 /* SceneDelegate.swift */,
 				6A75D0122C57DFA000951D86 /* ViewController.swift */,
+				6A75D0422C57E7A300951D86 /* TableViewController.swift */,
 				6A75D0142C57DFA000951D86 /* Main.storyboard */,
 				6A75D0172C57DFA000951D86 /* Assets.xcassets */,
 				6A75D0192C57DFA000951D86 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				6A75D0132C57DFA000951D86 /* ViewController.swift in Sources */,
 				6A75D00F2C57DFA000951D86 /* AppDelegate.swift in Sources */,
 				6A75D0112C57DFA000951D86 /* SceneDelegate.swift in Sources */,
+				6A75D0432C57E7A300951D86 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +451,6 @@
 				INFOPLIST_FILE = tableViewAnimation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +478,6 @@
 				INFOPLIST_FILE = tableViewAnimation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
